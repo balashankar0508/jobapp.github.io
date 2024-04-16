@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1" />
+    <title>Employee Register</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" action="Register.jsp" method="POST">
+        <h1>Employee Register</h1>
+        
+        <div class="input-group">
+          <label>ID<span>*</span></label>
+          <input type="number" id="id" name="id" />
+          <div class="error"></div>
+          </div>
+        
+        <div class="input-group">
+          <label>First Name <span>*</span></label>
+          <input type="text" id="fname" name="fname" />
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <label>Last Name <span>*</span></label>
+          <input type="text" name="lname" id="lname" />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-group">
+          <label>Email <span>*</span></label>
+          <input type="text" name="email" id="email" />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-group">
+          <label>Contact (add +91) <span>*</span></label>
+          <input type="text" name="contact" id="contact" />
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <label>Year Of Graduation <span>*</span></label>
+          <input type="text" name="yop" id="yop" maxlength="4" />
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <label>Gender <span>*</span></label>
+          <select name="gen" id="gen">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Not willing to discose">Not willing to disclose</option>
+          </select>
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <label>Expected LPA <span>*</span></label>
+          <select name="lpa" id="lpa">
+            <option value="3-5">3-5</option>
+            <option value="5-7">5-7</option>
+            <option value="7-9">7-9</option>
+            <option value="10+">10+</option>
+            <option value="Not Applicable">Not Applicable</option>
+          </select>
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <label>Current Location <span>*</span></label>
+          <input type="text" name="location" id="cloc" />
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <label>Preferred Location <span>*</span></label>
+          <select name="ploc" id="ploc">
+            <option value="Chennai">Chennai</option>
+            <option value="Trichy">Trichy</option>
+            <option value="Coimbatore">Coimbatore</option>
+          </select>
+          <div class="error"></div>
+        </div>
+        <button type="submit">Register</button>
+        <div class="vbut">
+          <a href="View.jsp">View Applicants</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

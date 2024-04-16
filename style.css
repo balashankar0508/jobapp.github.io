@@ -1,0 +1,94 @@
+body {
+    background-attachment: fixed;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#form {
+    width: 450px;
+    margin: 10vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+form h1 {
+    text-align: center;
+    color: rgb(169, 0, 188);
+}
+
+#form button {
+    background-color: red;
+    color: white;
+    padding: 10px 50px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid rgb(34, 193, 195);
+}
+
+
+select {
+    height: 35px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid rgb(34, 193, 195);
+}
+
+
+.input-group input:focus {
+    outline: 0;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.success input {
+    border: 1px solid;
+    border-color: #14ef00;
+}
+
+.input-group.error input {
+    border-color: rgb(206, 67, 67);
+}
+
+
+.input-group span{
+    color:red;
+    font-size: 18px;
+}
+
+.vbut a {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
